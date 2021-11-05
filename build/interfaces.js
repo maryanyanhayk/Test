@@ -2,7 +2,8 @@
 var myBakeryItem = {
     name: 'Red Velvet Cake',
     numberInStock: 1,
-    ingredients: ['eggs', 'milk', 'sugar', 'flour', 'food colouring']
+    ingredients: ['eggs', 'milk', 'sugar', 'flour', 'food colouring'],
+    price: 200
 };
 var appleInfo = {
     name: 'apple',

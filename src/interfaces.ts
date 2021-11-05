@@ -3,13 +3,15 @@ interface BakeryItem{
     name: string;
     numberInStock: number;
     ingredients: string[];
+    price: number;
 }
 
 
 const myBakeryItem: BakeryItem = {
     name: 'Red Velvet Cake',
     numberInStock: 1,
-    ingredients: ['eggs','milk','sugar','flour','food colouring']
+    ingredients: ['eggs','milk','sugar','flour','food colouring'],
+    price: 200
 }
 
 interface FruitInfo{
